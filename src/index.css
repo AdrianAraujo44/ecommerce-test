@@ -1,0 +1,17 @@
+.product-card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.product-card-hover img {
+  transition: transform 0.3s ease;
+}
+
+.product-card-hover:hover img {
+  transform: scale(1.05);
+}
